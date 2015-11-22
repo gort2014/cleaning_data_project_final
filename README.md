@@ -12,19 +12,19 @@ For information on modifying the raw data to create the derived dataset in Tidy 
 
 The script run_analysis.R assumes the user has the following folders and files:
 
-- In a folder ..\\UCI HAR Dataset\\train\\..
+### In a folder ..\\UCI HAR Dataset\\train\\..
 - x_train.txt contains the training data on the 561-element statistic vectors calculated on the raw data  
 - y_train.txt contains the activity codes for the training data
 - subject_train.txt contains the subject id for the training data
 
 
-- In a folder ..\\UCI HAR Dataset\\test\\..
+### In a folder ..\\UCI HAR Dataset\\test\\..
 - x_test.txt contains the test data on the 561-element statistic vectors calculated on the raw data  
 - y_test.txt contains the test codes for the test data
 - subject_test.txt contains the subject id for the test data
 
 
-- In a folder ..\\UCI HAR Dataset\\..
+### In a folder ..\\UCI HAR Dataset\\..
 - activity_labels.txt contains descriptive names for the activities in y_train.txt and y_test.txt
 - features.txt has the column names for the files x_train.txt and x_test.txt
 

@@ -93,11 +93,14 @@ variables are a concatenation of the following terms:
 [summary statistic] in {mean,std} where mean is average and std is standard deviation
 [axis] in {x,y,z} representing 3-d coordinate space 
 
-Column #                      Label 	Description
+### List of Variables
+The list that follows has this format:
+Column # of variable, *variable name in italics =* , defintion of variable
 
-1                             subject	ID for subjects. Integer from 1-30 
 
-2                            activity	Factor variable for Activity type. oded this as a six-level factor variable with level lables in the following set: 
+1                             *subject*	= ID for subjects. Integer from 1-30 
+
+2                            *activity*	= Factor variable for Activity type. oded this as a six-level factor variable with level lables in the following set: 
 										{WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING}
 
 3           *tBodyAccelerometer.mean.X*	= Mean acceleration, body motion, x-axis. See Footnote A for units
